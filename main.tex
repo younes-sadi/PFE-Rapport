@@ -1,0 +1,56 @@
+\documentclass{masterthesis-uc2-en} 
+\usepackage{float}
+%% Metadata
+\department{Technologies des Logiciels et des Systèmes d’Information (TLSI)}
+\specialty{Génie logiciel (GL)}
+\title{SmartFarm / Smart Greenhouse} 
+\studentFullnameA{Mr. Gharzouli Abderahmane Mahdi}
+\studentFullnameB{Mr. Sadi Belkacem}  
+\supervisorFullnameA{Mr. Smain Nasr-Eddine Bouzenada}
+
+\session{Juin 2023}
+
+%% Additional commands
+
+
+\begin{document}
+
+
+\frontmatter
+	\maketitlepage
+	\pagestyle{plain}
+	\include{front/acknowledgments}
+	\include{front/abstract}
+%	\include{chapters/conclusion}
+	
+	
+	
+	\clearpage
+	\renewcommand{\listfigurename}{Liste de figures}
+	
+	\tableofcontents
+	\listoffigures
+	\include{front/acronyms}
+
+
+\mainmatter
+	\pagestyle{fancy}
+	\include{chapters/introduction}
+	\include{chapters/state_of_the_art}
+	\include{chapters/IOT}
+	\include{chapters/Conception}
+	\include{chapters/Implimentation}
+	\include{chapters/ConclusionGeneral}
+
+	
+	
+%	\include{chapters/contributions}
+%	\include{chapters/conclusion}
+
+% 	\include{chapters/template} To remove in final version
+	
+\backmatter
+	\include{chapters/reference}
+	
+
+\end{document}
